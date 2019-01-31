@@ -1,5 +1,4 @@
 def solve(s, a, b, x):
-    a, b = max(a, b), min(a, b)
     n = 0
     l = []
     while n != s // a + 1:  # находим все варианты размена S на A и B
